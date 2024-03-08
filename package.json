@@ -1,11 +1,11 @@
 {
-  "name": "eleventy-plugin-og-image",
-  "version": "2.1.1",
+  "name": "@cdransf/eleventy-plugin-og-image",
+  "version": "3.0.0",
   "description": "A plugin to create Open Graph Images from JSX for Eleventy.",
   "author": {
-    "name": "Kilian Finger",
-    "email": "npm@kilianfinger.com",
-    "url": "https://www.kilianfinger.com/"
+    "name": "Cory Dransfeldt",
+    "email": "coryd@hey.com",
+    "url": "https://coryd.dev"
   },
   "license": "MIT",
   "keywords": [
@@ -16,21 +16,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/KiwiKilian/eleventy-plugin-og-image.git"
+    "url": "https://github.com/cdransf/eleventy-plugin-og-image.git"
   },
   "bugs": {
-    "url": "https://github.com/KiwiKilian/eleventy-plugin-og-image/issues"
+    "url": "https://github.com/cdransf/eleventy-plugin-og-image/issues"
   },
-  "homepage": "https://github.com/KiwiKilian/eleventy-plugin-og-image#readme",
+  "homepage": "https://github.com/cdransf/eleventy-plugin-og-image#readme",
   "main": "./.eleventy.js",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "default": "./.eleventy.js"
-    },
-    "./package.json": "./package.json",
-    "./render": "./src/renderOgImage.js"
-  },
   "files": [
     ".eleventy.js",
     "index.d.ts",
@@ -41,13 +33,6 @@
     "postinstall": "node postinstall.js",
     "semantic-release": "semantic-release",
     "format": "prettier --write ."
-  },
-  "prettier": "@kiwikilian/prettier-config",
-  "engines": {
-    "node": ">=16"
-  },
-  "11ty": {
-    "compatibility": ">=2.0.0-beta.1"
   },
   "peerDependencies": {
     "@11ty/eleventy": "3.0.0-alpha.5"
