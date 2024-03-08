@@ -27,11 +27,11 @@
   "files": [
     ".eleventy.js",
     "index.d.ts",
-    "postinstall.js",
+    "postinstall.cjs",
     "src"
   ],
   "scripts": {
-    "postinstall": "node postinstall.js",
+    "postinstall": "node postinstall.cjs",
     "semantic-release": "semantic-release",
     "format": "prettier --write ."
   },
