@@ -84,7 +84,7 @@ For applied usage see the [example](./example).
 The following options can be passed when adding the plugin:
 
 | Property              | Type                                                                                                       | Default                                   |                                                                                             |
-|-----------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------|
+| --------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------- |
 | `inputFileGlob`       | `glob`                                                                                                     | `**/*.og.*`                               | This must match the OG-image-templates to prevent HTML compilation.                         |
 | `getOutputFileSlug`   | `function`                                                                                                 | [See source](src/mergeOptions.js)         | Generation of the output file slug. Return must be url safe and exclude the file extension. |
 | `outputFileExtension` | [sharp output file formats](https://sharp.pixelplumbing.com/api-output#toformat)                           | `png`                                     |                                                                                             |

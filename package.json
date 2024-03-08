@@ -31,7 +31,6 @@
     "./package.json": "./package.json",
     "./render": "./src/renderOgImage.js"
   },
-  "types": "./index.d.ts",
   "files": [
     ".eleventy.js",
     "index.d.ts",
@@ -41,13 +40,7 @@
   "scripts": {
     "postinstall": "node postinstall.js",
     "semantic-release": "semantic-release",
-    "test": "ava test/**/*.test.js",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "example": "cd example && npx @11ty/eleventy",
-    "example:start": "npm run example -- --serve",
-    "example:build": "npm run example",
-    "example:clean": "rimraf example/_site"
+    "format": "prettier --write ."
   },
   "prettier": "@kiwikilian/prettier-config",
   "engines": {
@@ -57,7 +50,7 @@
     "compatibility": ">=2.0.0-beta.1"
   },
   "peerDependencies": {
-    "@11ty/eleventy": ">=2.0.0-beta.1"
+    "@11ty/eleventy": "3.0.0-alpha.5"
   },
   "dependencies": {
     "@11ty/eleventy-utils": "^1.0.1",
@@ -71,7 +64,7 @@
     "yoga-wasm-web": "^0.3.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "3.0.0-alpha.5",
     "@fontsource/inter": "^5.0.1",
     "@kiwikilian/eslint-config": "^1.1.0",
     "@kiwikilian/prettier-config": "1.0.1",
