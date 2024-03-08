@@ -1,6 +1,6 @@
 {
   "name": "@cdransf/eleventy-plugin-og-image",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A plugin to create Open Graph Images from JSX for Eleventy.",
   "type": "module",
   "author": {
